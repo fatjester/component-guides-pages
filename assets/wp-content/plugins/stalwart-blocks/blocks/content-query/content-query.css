@@ -1,0 +1,390 @@
+/* ==========================================================================
+   Content Query block — functional/layout styles only.
+   Visual styles (color, typography, spacing) belong in the theme.
+   ========================================================================== */
+
+
+/* --------------------------------------------------------------------------
+   Grid
+   -------------------------------------------------------------------------- */
+
+.stalwart-cq-grid {
+    display: grid;
+    grid-gap: var(--cq-grid-gap, 1.5rem);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wp-block-stalwart-blocks-content-query.columns-2 .stalwart-cq-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.wp-block-stalwart-blocks-content-query.columns-3 .stalwart-cq-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.wp-block-stalwart-blocks-content-query.columns-4 .stalwart-cq-grid {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 992px) {
+    .wp-block-stalwart-blocks-content-query.columns-3 .stalwart-cq-grid,
+    .wp-block-stalwart-blocks-content-query.columns-4 .stalwart-cq-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .wp-block-stalwart-blocks-content-query.columns-2 .stalwart-cq-grid,
+    .wp-block-stalwart-blocks-content-query.columns-3 .stalwart-cq-grid,
+    .wp-block-stalwart-blocks-content-query.columns-4 .stalwart-cq-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   Card structure
+   -------------------------------------------------------------------------- */
+
+li.stalwart-card-traditional {
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Stretch-link — covers the entire card */
+a.stalwart-card-link::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+}
+
+/* Image wrapper */
+.stalwart-card-image-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Natural ratio: image displays at its own height */
+.stalwart-card-image-wrapper img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Constrained aspect ratios — image fills the ratio box */
+.stalwart-card-image-wrapper.aspect-1-1  { aspect-ratio: 1 / 1;   }
+.stalwart-card-image-wrapper.aspect-4-3  { aspect-ratio: 4 / 3;   }
+.stalwart-card-image-wrapper.aspect-16-9 { aspect-ratio: 16 / 9;  }
+.stalwart-card-image-wrapper.aspect-2-1  { aspect-ratio: 2 / 1;   }
+
+.stalwart-card-image-wrapper.aspect-1-1  img,
+.stalwart-card-image-wrapper.aspect-4-3  img,
+.stalwart-card-image-wrapper.aspect-16-9 img,
+.stalwart-card-image-wrapper.aspect-2-1  img {
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text area */
+.stalwart-card-traditional-text {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Heading */
+.stalwart-card-heading {
+    margin: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   Term displays — ribbon, pills, kicker
+   -------------------------------------------------------------------------- */
+
+/* Ribbon — positioned inside the image wrapper, top-left corner */
+.stalwart-td-ribbon {
+    position: absolute;
+    top: var(--td-ribbon-offset, 0.75rem);
+    left: 0;
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Pills — flex-wrap row of term chips */
+.stalwart-td-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--td-pills-gap, 0.375rem);
+}
+
+/* Kicker — single line of text, typically above the heading */
+.stalwart-td-kicker {
+    margin: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   Card animation — two-phase hide so the grid reflows after fade-out
+   -------------------------------------------------------------------------- */
+
+li.stalwart-card-traditional {
+    transition: opacity 0.25s ease-out, transform 0.25s ease-out;
+}
+
+/* Phase 1: fading out (still occupies grid space during transition) */
+li.stalwart-card-traditional.is-hiding {
+    opacity: 0;
+    transform: scale(0.97);
+    pointer-events: none;
+}
+
+/* Phase 2: removed from layout so the grid reflows */
+li.stalwart-card-traditional.is-hidden {
+    display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    li.stalwart-card-traditional,
+    li.stalwart-card-traditional.is-hiding {
+        transition: none;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   Filter bar — layout only
+   -------------------------------------------------------------------------- */
+
+.stalwart-cq-filters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Reset fieldset browser defaults */
+.stalwart-cq-filter-group {
+    border: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/* Hide native inputs when labels are used as custom controls */
+.stalwart-cq-filter-option input[type="checkbox"],
+.stalwart-cq-filter-option input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.stalwart-cq-filter-option {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.stalwart-cq-filter-select {
+    cursor: pointer;
+}
+
+
+/* --------------------------------------------------------------------------
+   Table layout
+   -------------------------------------------------------------------------- */
+
+.stalwart-cq-table-wrapper {
+    width: 100%;
+}
+
+.stalwart-cq-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+.stalwart-cq-table thead th,
+.stalwart-cq-table tbody td {
+    text-align: left;
+    vertical-align: top;
+}
+
+/* Row animation — opacity only (transform looks odd on table rows) */
+.stalwart-cq-row {
+    transition: opacity 0.25s ease-out;
+}
+
+.stalwart-cq-row.is-hiding {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.stalwart-cq-row.is-hidden {
+    display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .stalwart-cq-row,
+    .stalwart-cq-row.is-hiding {
+        transition: none;
+    }
+}
+
+/* Responsive: stack as labeled rows on narrow viewports */
+@media (max-width: 640px) {
+    .stalwart-cq-table,
+    .stalwart-cq-table thead,
+    .stalwart-cq-table tbody,
+    .stalwart-cq-table tr,
+    .stalwart-cq-table th,
+    .stalwart-cq-table td {
+        display: block;
+    }
+
+    /* Visually hide the header row while keeping it in the DOM for screen readers */
+    .stalwart-cq-table thead tr {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+    }
+
+    /* Prepend the column label before each cell's value */
+    .stalwart-cq-table td::before {
+        content: attr(data-label);
+        display: block;
+    }
+}
+
+
+/* --------------------------------------------------------------------------
+   Empty state
+   -------------------------------------------------------------------------- */
+
+.stalwart-cq-empty-state {
+    grid-column: 1 / -1;
+}
+
+
+/* --------------------------------------------------------------------------
+   Editor preview (admin UI — more opinionated is acceptable here)
+   -------------------------------------------------------------------------- */
+
+.stalwart-content-query-editor-preview {
+    border: 1px dashed #aaa;
+    border-radius: 4px;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stalwart-cq-editor-placeholder,
+.stalwart-cq-editor-summary {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+
+
+/* --------------------------------------------------------------------------
+   Inspector panel helpers (editor only)
+   -------------------------------------------------------------------------- */
+
+.stalwart-cq-curated-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.stalwart-cq-search-results {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+.stalwart-cq-search-results li {
+    border-bottom: 1px solid #eee;
+}
+
+.stalwart-cq-search-results li:last-child {
+    border-bottom: none;
+}
+
+.stalwart-cq-selected-posts {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+
+.stalwart-cq-selected-post {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.stalwart-cq-post-title {
+    flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.stalwart-cq-post-actions {
+    display: flex;
+    gap: 0.25rem;
+    flex-shrink: 0;
+}
+
+.stalwart-cq-filter-builder {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.stalwart-cq-filter-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.375rem;
+}
+
+.stalwart-cq-filter-row-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.stalwart-cq-filter-divider {
+    border: none;
+    border-top: 1px solid #e0e0e0;
+    margin: 0.5rem 0;
+}
+
+.stalwart-cq-term-picker {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stalwart-cq-term-option {
+    display: flex;
+    align-items: center;
+    gap: 0.375rem;
+    cursor: pointer;
+}
+
+.stalwart-cq-filter-actions {
+    margin-top: 0.25rem;
+}

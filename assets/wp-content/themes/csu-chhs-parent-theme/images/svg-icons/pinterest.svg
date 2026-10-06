@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_social_pinterest</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wrapper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-4a-(1680)-APPROVED" transform="translate(-1042.000000, -277.000000)" fill="#BD081C">
+            <g id="footer">
+                <g id="follow-chhs" transform="translate(1012.500000, 30.000000)">
+                    <g id="Social-media-Copy" transform="translate(30.000000, 94.000000)">
+                        <path d="M15,153 L1,153 C0.447,153 0,153.447 0,154 L0,168 C0,168.553 0.447,169 1,169 L15,169 C15.553,169 16,168.553 16,168 L16,154 C16,153.447 15.553,153 15,153 Z M8.835,163.703 C8.053,163.646 7.724,163.284 7.111,162.936 C6.773,164.589 6.361,166.172 5.139,167 C4.763,164.503 5.694,162.628 6.125,160.637 C5.389,159.479 6.214,157.15 7.768,157.724 C9.68,158.43 6.111,162.027 8.507,162.477 C11.008,162.946 12.028,158.427 10.478,156.957 C8.239,154.836 3.957,156.908 4.483,159.947 C4.612,160.689 5.433,160.916 4.811,161.94 C3.377,161.643 2.949,160.588 3.004,159.18 C3.094,156.877 5.222,155.264 7.358,155.041 C10.057,154.758 12.592,155.966 12.942,158.338 C13.336,161.014 11.723,163.912 8.835,163.703 Z" id="icon_social_pinterest"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

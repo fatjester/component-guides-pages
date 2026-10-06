@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom / Icon / Arrow / Large / Left Copy</title>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms---Icons-" transform="translate(-360, -543)">
+            <g id="Atom-/-Icon-/-Arrow-/-Large-/-Left-Copy" transform="translate(360, 543)">
+                <circle id="Oval" fill="#C6503D" transform="translate(35, 35) rotate(-360) translate(-35, -35)" cx="35" cy="35" r="35"></circle>
+                <g id="Group-7" transform="translate(35.8818, 34.6941) rotate(-360) translate(-35.8818, -34.6941)translate(21.0725, 23.9037)" fill="#FFFFFF">
+                    <g id="Group-6" transform="translate(-0, 0)">
+                        <polygon id="Fill-4" points="13.7335098 21.5808444 25.5337098 10.7004889 13.9338876 0.0394444444 18.0660876 1.14093557e-14 29.6185765 10.6642 17.8672876 21.5429778"></polygon>
+                        <polygon id="Stroke-5" fill-rule="nonzero" points="26.9026889 9.31117074 26.9257501 12.0418426 0.0230612132 12.2690426 -3.70859171e-14 9.53837074"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

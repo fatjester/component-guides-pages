@@ -1,0 +1,62 @@
+.wp-block-stalwart-blocks-sticky-nav-group {
+	display: grid;
+	grid-template-rows: 1fr;
+	grid-column-gap: 3rem;
+}
+
+/* Sticky nav for all widths */
+.wp-block-stalwart-blocks-sticky-nav-group aside, .wp-block-stalwart-blocks-sticky-nav-group details {
+	position: sticky;
+	align-self: flex-start;
+	overflow-y: auto;
+}
+
+/* Sticky nav for desktop only */
+.wp-block-stalwart-blocks-sticky-nav-group aside {
+	/* top: 1.5em; */
+    top: 8rem;
+}
+
+/* Sticky nav for mobile only */
+.wp-block-stalwart-blocks-sticky-nav-group details {
+	top: 0;
+}
+
+.wp-block-stalwart-blocks-sticky-nav-group aside ul, .wp-block-stalwart-blocks-sticky-nav-group details ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sticky-nav-section-heading h2, .sticky-nav-section-heading h3, .sticky-nav-section-heading h4, .sticky-nav-section-heading h5, .sticky-nav-section-heading h6 {
+	margin-top: 0;
+}
+
+.sticky-nav-item:not(:last-of-type) {
+	margin-bottom: 3em;
+}
+
+.mobile-sticky-nav {
+	display: none;
+	visibility: hidden;
+}
+
+/* Breakpoints */
+@media (max-width: 992px) {
+
+	.wp-block-stalwart-blocks-sticky-nav-group {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.desktop-sticky-nav {
+		display: none;
+		visibility: hidden;
+	}
+
+	.mobile-sticky-nav {
+		display: block;
+		visibility: visible;
+	}
+
+}

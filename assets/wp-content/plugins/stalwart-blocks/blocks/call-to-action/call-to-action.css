@@ -1,0 +1,23 @@
+.stalwart-cta-single {
+	position: relative;
+}
+
+ul.stalwart-ctas {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.stalwart-cta-image-wrapper img {
+	width: 100%;
+	width: -webkit-fill-available;
+}
+
+/* Make the link apply to the whole CTA, not just the title */
+.stalwart-cta-link::before {
+	content: '';
+	cursor: pointer;
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+}

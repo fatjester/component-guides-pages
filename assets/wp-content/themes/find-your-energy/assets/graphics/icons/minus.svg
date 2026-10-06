@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom / Icon / Minus </title>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms---Icons-" transform="translate(-1034, -567)">
+            <g id="Atom-/-Icon-/-Minus-" transform="translate(1034, 567)">
+                <circle id="Oval" fill="#C6503D" cx="17" cy="17" r="17"></circle>
+                <g id="Group-7-Copy" transform="translate(17, 17.5) rotate(-45) translate(-17, -17.5)translate(9, 11)" fill="#FFFFFF">
+                    <g id="Group-6" transform="translate(-0, 0)">
+                        <g id="Group" transform="translate(0, 0)">
+                            <polygon id="Fill-4" transform="translate(11.2941, 9.6379) scale(-1, 1) translate(-11.2941, -9.6379)" points="6.58823529 12.5517241 13.1764706 6.27586207 16 6.27586207 8.94117647 13"></polygon>
+                            <polygon id="Fill-4" points="6.58823529 6.27586207 3.86188719e-13 2.44944518e-14 2.82352941 2.12470495e-14 9.41176471 6.27586207"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

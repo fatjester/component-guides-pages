@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_social_facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wrapper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-4a-(1680)-APPROVED" transform="translate(-1042.000000, -128.000000)" fill="#3B5998">
+            <g id="footer">
+                <g id="follow-chhs" transform="translate(1012.500000, 30.000000)">
+                    <g id="Social-media-Copy" transform="translate(30.000000, 94.000000)">
+                        <path d="M15,4 L1,4 C0.45,4 0,4.45 0,5 L0,19 C0,19.55 0.45,20 1,20 L15,20 C15.55,20 16,19.55 16,19 L16,5 C16,4.45 15.55,4 15,4 Z M11,9 L10,9 C9.15,9 9,9 9,11 L11,11 L11,13 L9,13 L9,17 L7,17 L7,13 L5,13 L5,11 L7,11 C7,9.469 7,7 10,7 L11,7 L11,9 Z" id="icon_social_facebook"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

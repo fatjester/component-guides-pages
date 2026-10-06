@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_social_linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wrapper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-4a-(1680)-APPROVED" transform="translate(-1042.000000, -188.000000)" fill="#0077B5">
+            <g id="footer">
+                <g id="follow-chhs" transform="translate(1012.500000, 30.000000)">
+                    <g id="Social-media-Copy" transform="translate(30.000000, 94.000000)">
+                        <path d="M15,64 L1,64 C0.447,64 0,64.447 0,65 L0,79 C0,79.553 0.447,80 1,80 L15,80 C15.553,80 16,79.553 16,79 L16,65 C16,64.447 15.553,64 15,64 Z M5,76 L3,76 L3,69 L5,69 L5,76 Z M4,68 C3.447,68 3,67.553 3,67 C3,66.447 3.447,66 4,66 C4.553,66 5,66.447 5,67 C5,67.553 4.553,68 4,68 Z M13,76 L11,76 L11,73 C11,72.061 10.75,71 9.75,71 C8.625,71 8,72 8,73 L8,76 L6.016,76 C6.016,76 6.063,69 6.032,69 L8,69 L8,70.5 C8.305,69.829 8.938,69.188 9.854,69.062 C11.795,68.798 13,69.824 13,71.974 L13,76 Z" id="icon_social_linkedin"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

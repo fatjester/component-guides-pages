@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="34px" viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom / Icon / Arrow / Small / Right</title>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms---Icons-" transform="translate(-960, -567)">
+            <g id="Group-2" transform="translate(960, 567)">
+                <circle id="Oval" fill="#C6503D" cx="17" cy="17" r="17"></circle>
+                <g id="Group" transform="translate(7.6774, 8.7742)" stroke="#FFFFFF" stroke-width="2">
+                    <line x1="0.432937182" y1="8.22580645" x2="16.0186757" y2="8.22580645" id="Line-7" stroke-linecap="square"></line>
+                    <polyline id="Path-3" points="7.79286927 0 16.4516129 7.67741935 16.4516129 8.77419355 7.79286927 16.4516129"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

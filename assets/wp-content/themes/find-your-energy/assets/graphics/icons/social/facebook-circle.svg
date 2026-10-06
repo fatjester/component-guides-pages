@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom / Icon / Social / Facebook</title>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms---Icons-" transform="translate(-200, -1795)">
+            <g id="Group-3" transform="translate(180, 1778)">
+                <g id="Atom-/-Icon-/-Social-/-Facebook" transform="translate(20, 17)">
+                    <circle id="Oval" fill="#FFFFFF" cx="25" cy="25" r="25"></circle>
+                    <path d="M31.0126953,26.625 L31.7348047,21.9196094 L27.2198438,21.9196094 L27.2198438,18.8661328 C27.2198438,17.5788281 27.8505469,16.3240234 29.8726563,16.3240234 L31.9252344,16.3240234 L31.9252344,12.3178906 C31.9252344,12.3178906 30.0625781,12 28.2816797,12 C24.5634766,12 22.1330859,14.2536719 22.1330859,18.3334375 L22.1330859,21.9196094 L18,21.9196094 L18,26.625 L22.1330859,26.625 L22.1330859,38 L27.2198438,38 L27.2198438,26.625 L31.0126953,26.625 Z" id="facebook" fill="#1E4D2B"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="17px" height="17px" viewBox="0 0 17 17" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <title>icon_social_youtube</title>
+  <desc>Created with Sketch.</desc>
+  <g id="Wrapper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="matrix(1, 0, 0, 1, 0, 2.5)">
+    <g id="Footer-4a-(1680)-APPROVED" transform="translate(-1042.000000, -250.000000)" fill="#FF0000">
+      <g id="footer">
+        <g id="follow-chhs" transform="translate(1012.500000, 30.000000)">
+          <g id="Social-media-Copy" transform="translate(30.000000, 94.000000)">
+            <path d="M13.387,126 L2.623,126 C1.186,126 0,127.267 0,128.796 L0,135.202 C0,136.744 1.186,138 2.623,138 L13.387,138 C14.827,138 16,136.744 16,135.202 L16,128.796 C16,127.267 14.827,126 13.387,126 Z M10.813,132.274 L6.451,134.934 C6.202,135.085 6,134.969 6,134.673 L6,129.326 C6,129.03 6.202,128.915 6.451,129.066 L10.813,131.724 C11.062,131.876 11.062,132.123 10.813,132.274 Z" id="icon_social_youtube"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

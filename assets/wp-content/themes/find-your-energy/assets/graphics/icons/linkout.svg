@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom / Icon / Linkout</title>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms---Icons-" transform="translate(-996, -928)" fill="#CFFC00">
+            <g id="Atom-/-Icon-/-Linkout" transform="translate(996, 929)">
+                <g id="Group-3-Copy-3" transform="translate(0, -0)">
+                    <polygon id="Path-4" fill-rule="nonzero" points="8.5094162 7.83050847 6.37382298 9.61016949 1.77966102 9.61016949 1.77966102 19.220339 11.3898305 19.220339 11.3898305 14.626177 13.1694915 12.4905838 13.1694915 21 0 21 0 7.83050847"></polygon>
+                    <g id="Group-7" transform="translate(11.8497, 9.1503) rotate(-45) translate(-11.8497, -9.1503)translate(4.1945, 3.865)" stroke="#CFFC00" stroke-width="0.5">
+                        <g id="Group-6" transform="translate(-0, -0)">
+                            <polygon id="Fill-4" points="8.01157978 10.5706471 13.2969033 5.28532357 8.01157978 6.18416448e-12 10.2767185 0.251682075 15.3103599 5.28532357 10.2767185 10.3189651"></polygon>
+                            <polygon id="Stroke-5" fill-rule="nonzero" points="13.5802871 4.5723707 13.5919282 6.15335875 0.0116411374 6.28490165 2.8324351e-13 4.7039136"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

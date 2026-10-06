@@ -1,0 +1,173 @@
+body.admin-color-stalwart {
+	--fye-admin-main: #105456;
+	--fye-admin-sub: #083133;
+	--fye-admin-text: #ffffff;
+	--fye-admin-highlight: #c8c372;
+	--fye-admin-icon: #f4e8c8;
+	--fye-admin-icon-active: #083133;
+	--fye-admin-highlight-text: #083133;
+}
+
+body.admin-color-oval {
+	--fye-admin-main: #006144;
+	--fye-admin-sub: #004d35;
+	--fye-admin-text: #ffffff;
+	--fye-admin-highlight: #82c503;
+	--fye-admin-icon: #ffffff;
+	--fye-admin-icon-active: #004d35;
+	--fye-admin-highlight-text: #004d35;
+}
+
+body.admin-color-snoval {
+	--fye-admin-main: #cccccc;
+	--fye-admin-sub: #b5b5b5;
+	--fye-admin-text: #000000;
+	--fye-admin-highlight: #006144;
+	--fye-admin-icon: #2b2b2b;
+	--fye-admin-icon-active: #ffffff;
+	--fye-admin-highlight-text: #ffffff;
+}
+
+body.admin-color-slate {
+	--fye-admin-main: #333333;
+	--fye-admin-sub: #1a1a1a;
+	--fye-admin-text: #ffffff;
+	--fye-admin-highlight: #cffc00;
+	--fye-admin-icon: #f5ff9d;
+	--fye-admin-icon-active: #1a1a1a;
+	--fye-admin-highlight-text: #1a1a1a;
+}
+
+body.admin-color-purple {
+	--fye-admin-main: #7e5475;
+	--fye-admin-sub: #5f3c59;
+	--fye-admin-text: #ffffff;
+	--fye-admin-highlight: #cffc00;
+	--fye-admin-icon: #ffffff;
+	--fye-admin-icon-active: #5f3c59;
+	--fye-admin-highlight-text: #5f3c59;
+}
+
+body[class*="admin-color-"] #wpadminbar,
+body[class*="admin-color-"] #adminmenu,
+body[class*="admin-color-"] #adminmenuwrap,
+body[class*="admin-color-"] #adminmenuback,
+body[class*="admin-color-"] #dashboard_right_now .sub {
+	background-color: var(--fye-admin-main);
+	color: var(--fye-admin-text);
+}
+
+body[class*="admin-color-"] #adminmenu a,
+body[class*="admin-color-"] #adminmenu .wp-submenu a {
+	color: var(--fye-admin-text);
+	background: var(--fye-admin-main);
+}
+
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu .wp-submenu a,
+body[class*="admin-color-"] #adminmenu .opensub .wp-submenu a {
+	background: var(--fye-admin-sub)
+}
+
+body[class*="admin-color-"] #wpadminbar .ab-item,
+body[class*="admin-color-"] #wpadminbar .ab-item span {
+	color: var(--fye-admin-text)!important;
+	background: var(--fye-admin-main)!important;
+}
+
+body[class*="admin-color-"] #wpadminbar .ab-submenu .ab-item {
+	background: var(--fye-admin-sub)!important;
+}
+
+body[class*="admin-color-"] #wpadminbar .ab-submenu .ab-item:hover,
+body[class*="admin-color-"] #wpadminbar .ab-submenu .ab-item:focus {
+	background: var(--fye-admin-highlight)!important;
+	color: var(--fye-admin-highlight-text)!important;
+}
+
+body[class*="admin-color-"] #adminmenu .wp-submenu {
+	background-color: var(--fye-admin-sub, var(--fye-admin-main));
+}
+
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu .wp-submenu,
+body[class*="admin-color-"] #adminmenu .wp-submenu-head {
+	background-color: var(--fye-admin-sub, var(--fye-admin-main));
+}
+
+body[class*="admin-color-"] #adminmenu li.menu-top:hover > a,
+body[class*="admin-color-"] #adminmenu li.opensub > a.menu-top,
+body[class*="admin-color-"] #adminmenu li.menu-top > a:focus {
+	background-color: var(--fye-admin-highlight);
+	color: var(--fye-admin-highlight-text, var(--fye-admin-main));
+}
+
+body[class*="admin-color-"] #adminmenu .wp-submenu a:hover,
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu .wp-submenu a:focus {
+	color: var(--fye-admin-highlight);
+}
+
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu > a.wp-has-current-submenu,
+body[class*="admin-color-"] #adminmenu .current a.menu-top {
+	background-color: var(--fye-admin-highlight);
+	color: var(--fye-admin-highlight-text, var(--fye-admin-main));
+	box-shadow: inset 3px 0 0 var(--fye-admin-main);
+}
+
+body[class*="admin-color-"] #wpadminbar .ab-item:hover,
+body[class*="admin-color-"] #wpadminbar .ab-item:focus {
+	background-color: var(--fye-admin-sub);
+	color: var(--fye-admin-highlight-text, var(--fye-admin-main));
+}
+
+body[class*="admin-color-"] #wpadminbar li:hover > .ab-sub-wrapper,
+body[class*="admin-color-"] #wpadminbar li.hover > .ab-sub-wrapper,
+body[class*="admin-color-"] #wpadminbar li.menupop:hover > .ab-sub-wrapper,
+body[class*="admin-color-"] #wpadminbar li.menupop.hover > .ab-sub-wrapper {
+	background-color: var(--fye-admin-sub);
+}
+
+body[class*="admin-color-"] #wpadminbar .ab-sub-wrapper .ab-item:hover,
+body[class*="admin-color-"] #wpadminbar .ab-sub-wrapper .ab-item:focus {
+	background-color: var(--fye-admin-main);
+	color: var(--fye-admin-highlight);
+}
+
+body[class*="admin-color-"] #adminmenu .awaiting-mod,
+body[class*="admin-color-"] #adminmenu .update-plugins,
+body[class*="admin-color-"] .notice.notice-success {
+	background-color: var(--fye-admin-highlight);
+	color: var(--fye-admin-highlight-text, var(--fye-admin-main));
+	border-color: transparent;
+}
+
+body[class*="admin-color-"] #adminmenu div.wp-menu-image:before,
+body[class*="admin-color-"] #adminmenu div.wp-menu-image:after,
+body[class*="admin-color-"] #adminmenu .wp-menu-image img,
+body[class*="admin-color-"] #adminmenu .dashicons,
+body[class*="admin-color-"] #adminmenu .wp-menu-image svg,
+body[class*="admin-color-"] #adminmenu .wp-menu-image svg * ,
+body[class*="admin-color-"] #wpadminbar .ab-icon:before {
+	color: var(--fye-admin-icon, var(--fye-admin-text));
+	fill: var(--fye-admin-icon, var(--fye-admin-text));
+}
+
+body[class*="admin-color-"] #adminmenu li.menu-top:hover div.wp-menu-image:before,
+body[class*="admin-color-"] #adminmenu li.menu-top:hover div.wp-menu-image:after,
+body[class*="admin-color-"] #adminmenu li.menu-top > a:focus div.wp-menu-image:before,
+body[class*="admin-color-"] #adminmenu li.menu-top > a:focus div.wp-menu-image:after,
+body[class*="admin-color-"] #adminmenu li.menu-top:hover .dashicons,
+body[class*="admin-color-"] #adminmenu li.menu-top > a:focus .dashicons,
+body[class*="admin-color-"] #adminmenu li.menu-top:hover .wp-menu-image svg,
+body[class*="admin-color-"] #adminmenu li.menu-top > a:focus .wp-menu-image svg,
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu > a .dashicons,
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu > a .wp-menu-image svg,
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu > a div.wp-menu-image:before,
+body[class*="admin-color-"] #adminmenu .wp-has-current-submenu > a div.wp-menu-image:after {
+	color: var(--fye-admin-icon-active, var(--fye-admin-highlight-text, var(--fye-admin-main)));
+	fill: var(--fye-admin-icon-active, var(--fye-admin-highlight-text, var(--fye-admin-main)));
+}
+
+body[class*="admin-color-"] #wpadminbar .ab-item:hover .ab-icon:before,
+body[class*="admin-color-"] #wpadminbar .ab-item:focus .ab-icon:before {
+	color: var(var(--fye-admin-highlight-text, var(--fye-admin-main)));
+	fill: var(var(--fye-admin-highlight-text, var(--fye-admin-main)));
+}

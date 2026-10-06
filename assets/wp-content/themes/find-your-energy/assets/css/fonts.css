@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 500;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 600;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/poppins/Poppins-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Industry";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('../fonts/industry/industry.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: "codicons";
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/codicons/codicons.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Bodoni";
+    font-style: normal;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url('../fonts/bodoni-moda/BodoniModa-VariableFont_opsz,wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Bodoni";
+    font-style: italic;
+    font-weight: 400 900;
+    font-display: swap;
+    src: url('../fonts/bodoni-moda/BodoniModa-Italic-VariableFont_opsz,wght.ttf') format('truetype');
+}

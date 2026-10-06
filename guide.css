@@ -1,0 +1,54 @@
+/* Shared styles for Component Guide pages (labels + layout only; demos use the real theme CSS) */
+.cg-body{margin:0;background:#f3f4f2;font-family:Arial,Helvetica,sans-serif;color:#222}
+.cg-top{position:sticky;top:0;z-index:50;background:#1e4d2b;color:#fff;padding:12px 24px;display:flex;gap:24px;align-items:baseline;flex-wrap:wrap}
+.cg-top h1{margin:0;font-size:18px;color:#fff;font-family:Arial,sans-serif;text-transform:none;letter-spacing:0}
+.cg-top a{color:#cffc00;font-size:13px;text-decoration:none}
+.cg-wrap{max-width:1500px;margin:0 auto;padding:24px}
+.cg-intro{background:#fff;border-left:6px solid #1e4d2b;padding:16px 20px;margin-bottom:24px;font-size:14px;line-height:1.5}
+.cg-intro h2,.cg-intro p{font-family:Arial,sans-serif}
+.cg-toc{background:#fff;padding:16px 20px;margin-bottom:32px;font-size:13px;line-height:1.9}
+.cg-toc a{display:inline-block;margin-right:14px;color:#0b5394}
+.cg-group{margin:48px 0 8px;padding:10px 16px;background:#1e4d2b;color:#fff;font:700 15px Arial,sans-serif;letter-spacing:.04em;text-transform:uppercase}
+.cg-section{background:#fff;border:1px solid #cfd3cc;margin:0 0 36px;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.cg-label{background:#fffbe6;border-bottom:3px solid #e0b300;padding:14px 18px;font:13px/1.45 Arial,sans-serif;color:#222}
+.cg-label *{font-family:Arial,sans-serif;box-sizing:border-box}
+.cg-label h2{margin:0 0 8px;font-size:20px;line-height:1.2;color:#111;text-transform:none;letter-spacing:0;font-weight:700}
+.cg-badge{display:inline-block;font:700 11px Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;background:#1e4d2b;color:#fff;padding:3px 8px;border-radius:3px;margin-right:6px;vertical-align:middle}
+.cg-badge.slab{background:#1e4d2b}.cg-badge.template{background:#7e5475}.cg-badge.molecule{background:#008fb3}.cg-badge.atom{background:#555}.cg-badge.organism{background:#105456}.cg-badge.sidebar{background:#c6503d}.cg-badge.global{background:#d9782d}.cg-badge.script{background:#333}.cg-badge.block{background:#1e4d2b}.cg-badge.style{background:#008fb3}.cg-badge.pattern{background:#7e5475}.cg-badge.plugin{background:#105456}.cg-badge.theme{background:#d9782d}
+.cg-meta{display:grid;grid-template-columns:150px 1fr;gap:4px 14px;margin:8px 0 0}
+.cg-meta dt{font-weight:700;color:#555;margin:0}
+.cg-meta dd{margin:0}
+.cg-meta code{background:#f0eed8;padding:1px 4px;border-radius:2px;font:12px Menlo,Consolas,monospace}
+.cg-fields{margin:6px 0 0;padding-left:18px}
+.cg-fields li{margin:0}
+.cg-match{display:inline-block;padding:1px 8px;border-radius:3px;font-weight:700;font-size:12px}
+.cg-match.direct{background:#d9ead3}.cg-match.partial{background:#fff2cc;border:1px solid #e0b300}.cg-match.gap{background:#f4cccc}
+.cg-demo{padding:0;overflow:hidden;position:relative}
+.cg-demo.pad{padding:24px}
+.cg-demo.narrow{max-width:420px;padding:24px}
+.cg-demo.dark{background:#222}
+.cg-note{font:12px Arial,sans-serif;color:#666;padding:8px 18px;background:#f7f7f4;border-top:1px dashed #cfd3cc}
+.cg-static a{pointer-events:auto}
+.cg-example a{color:#0b5394}
+
+/* ---- isolation: keep guide chrome stable when theme CSS is loaded ---- */
+body.cg-body{font:14px/1.5 Arial,Helvetica,sans-serif!important;background:#f3f4f2!important;color:#222!important;margin:0!important;padding:0!important}
+.cg-top{height:auto!important;min-height:0!important;padding:12px 24px!important;line-height:1.3!important;display:flex!important;align-items:baseline!important}
+.cg-top h1{font:700 18px/1.3 Arial,sans-serif!important;margin:0!important;padding:0!important;color:#fff!important;text-transform:none!important;letter-spacing:0!important}
+.cg-top a{font:13px Arial,sans-serif!important;color:#cffc00!important;text-decoration:none!important}
+.cg-intro h2{font:700 18px/1.3 Arial,sans-serif!important;text-transform:none!important;letter-spacing:0!important;margin:0 0 8px!important;color:#111!important}
+.cg-intro p{font:14px/1.5 Arial,sans-serif!important;margin:0 0 8px!important;max-width:none!important}
+.cg-intro,.cg-toc{max-width:none!important}
+.cg-toc a{font:13px Arial,sans-serif!important;color:#0b5394!important;text-decoration:underline!important}
+.cg-group{font:700 15px Arial,sans-serif!important;letter-spacing:.04em!important;text-transform:uppercase!important;color:#fff!important;margin:48px 0 8px!important;background:#1e4d2b!important}
+.cg-label,.cg-label *{font-family:Arial,Helvetica,sans-serif!important;letter-spacing:0!important;text-transform:none!important}
+.cg-label dt,.cg-label dd{font-size:13px!important;line-height:1.45!important;margin:0!important;padding:0!important;float:none!important;width:auto!important;color:#222!important}
+.cg-label dt{font-weight:700!important;color:#555!important}
+.cg-label code{font:12px Menlo,Consolas,monospace!important;background:#f0eed8!important;color:#222!important}
+.cg-label a{color:#0b5394!important;text-decoration:underline!important;font-size:13px!important}
+.cg-label ul,.cg-label li{font-size:13px!important;line-height:1.45!important;margin-top:0!important;margin-bottom:0!important}
+.cg-label h2{font-size:20px!important;font-weight:700!important;color:#111!important}
+.cg-badge{font:700 11px Arial,sans-serif!important;color:#fff!important;text-transform:uppercase!important;letter-spacing:.06em!important}
+.cg-match{font:700 12px Arial,sans-serif!important;text-transform:uppercase!important;color:#222!important}
+.cg-note{font:12px Arial,sans-serif!important;color:#666!important}
+.cg-section{margin-bottom:36px!important}

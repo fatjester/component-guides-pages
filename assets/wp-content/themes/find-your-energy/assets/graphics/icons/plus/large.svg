@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="70px" height="70px" viewBox="0 0 70 70" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Atom / Icon / Plus / Large</title>
+    <g id="Production" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms---Icons-" transform="translate(-450, -543)">
+            <g id="Atom-/-Icon-/-Plus-/-Large" transform="translate(450, 543)">
+                <circle id="Oval" fill="#C6503D" transform="translate(35, 35) rotate(-360) translate(-35, -35)" cx="35" cy="35" r="35"></circle>
+                <g id="Group-7-Copy" transform="translate(35, 35) rotate(-45) translate(-35, -35)translate(24, 26)" fill="#FFFFFF">
+                    <g id="Group-6" transform="translate(0, -0)">
+                        <g id="Group" transform="translate(0, -0)">
+                            <polygon id="Fill-4" transform="translate(15.5294, 9) scale(-1, 1) translate(-15.5294, -9)" points="9.05882353 17.3793103 18.1176471 8.68965517 9.05882353 2.14027991e-12 12.9411765 2.13578351e-12 22 8.68965517 12.2941176 18"></polygon>
+                            <polygon id="Fill-4" points="2.33756457e-13 17.3793103 9.05882353 8.68965517 2.44211834e-13 -1.8670854e-13 3.88235294 -1.91204943e-13 12.9411765 8.68965517 3.23529412 18"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

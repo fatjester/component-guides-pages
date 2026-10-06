@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --font-poppins: design-variables.$font-poppins;
+  --font-bodoni: design-variables.bodoni;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.font-poppins {
+  font-family: "poppins", sans-serif;
+}
+
+.font-bodoni {
+  font-family: "Bodoni Moda", serif;
+  font-optical-sizing: none;
+}
+
+#sg-patterns {
+  max-width: 100%;
+}
+
+body script {
+  display: none;
+}
+
+.demo-animate {
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 8px;
+  background: color-get(dark-gray);
+  text-align: center;
+  cursor: pointer;
+}
+
+.sg-colors {
+  margin-left: 0;
+  list-style: none;
+}
+.sg-colors .sg-colors__column {
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 35rem) {
+  .sg-colors {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+  .sg-colors .sg-colors__column {
+    flex: 0 1 auto;
+    width: calc(33.3333333333% - 1rem);
+    margin: 0 0 2rem;
+  }
+}
+@media screen and (min-width: 48rem) {
+  .sg-colors .sg-colors__column {
+    flex: 0 1 auto;
+    width: calc(16.6666666667% - 1rem);
+    margin: 0 0 2rem;
+  }
+}
+@supports (grid-template-columns: 1px) {
+  .sg-colors {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-gap: 0.5rem;
+  }
+  .sg-colors .sg-colors__column {
+    width: auto;
+    margin: 0;
+  }
+  @media screen and (min-width: 35rem) {
+    .sg-colors {
+      grid-gap: 1rem;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  @media screen and (min-width: 48rem) {
+    .sg-colors {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+  }
+  @media screen and (min-width: 76rem) {
+    .sg-colors {
+      grid-gap: 2rem;
+    }
+  }
+}
+
+.sg-colors__column {
+  padding: calc(0.5rem - 2px);
+  border: 2px solid color-get(light-gray);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.sg-colors__column margin {
+  top: 1rem;
+  bottom: 1rem;
+}
+
+.sg-colors pre {
+  margin-bottom: 0.5rem;
+  line-height: 1rem;
+  font-size: 0.75rem;
+}
+
+.sg-swatch {
+  display: block;
+  height: 5rem;
+  margin-bottom: 0.5rem;
+  padding: calc(0.5rem - 5px);
+  border-radius: 5px;
+}
+
+.sg-pattern-example {
+  overflow: hidden;
+}
+
+.sg-pattern {
+  margin-bottom: 2rem;
+}
+
+.sg-pattern-head {
+  padding: 0.5rem;
+}
+
+.sg-pattern-title padding {
+  top: 1rem;
+  bottom: 1rem;
+}
+.sg-pattern-title a {
+  padding: 0;
+  border-bottom-width: 0;
+}
+
+.sg-pattern-extra {
+  display: none;
+}
+
+.sg-image-grid .sg-image-grid-tile {
+  margin-bottom: 2rem;
+}
+@media screen and (min-width: 44rem) {
+  .sg-image-grid {
+    display: flex;
+    margin-right: -1rem;
+    margin-left: -1rem;
+  }
+  .sg-image-grid .sg-image-grid-tile {
+    margin-right: 1rem;
+    margin-bottom: 0;
+    margin-left: 1rem;
+  }
+}
+
+body.layout-grid--on::before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 72rem;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  content: "";
+  z-index: 1000;
+  pointer-events: none;
+  mix-blend-mode: exclusion;
+  width: calc(100% - 2 * 1rem);
+  background-image: repeating-linear-gradient(to left, transparent 0, transparent 0.5rem, rgba(128, 128, 128, 0.2) 0.5rem, rgba(128, 128, 128, 0.2) 25%);
+  background-size: calc(100% + 0.5rem);
+}
+@media screen and (min-width: 35rem) {
+  body.layout-grid--on::before {
+    width: calc(100% - 2 * 2rem);
+    background-image: repeating-linear-gradient(to left, transparent 0, transparent 1rem, rgba(128, 128, 128, 0.2) 1rem, rgba(128, 128, 128, 0.2) 12.5%);
+    background-size: calc(100% + 1rem);
+  }
+}
+@media screen and (min-width: 48rem) {
+  body.layout-grid--on::before {
+    width: calc(100% - 2 * 2rem);
+    background-image: repeating-linear-gradient(to left, transparent 0, transparent 1rem, rgba(128, 128, 128, 0.2) 1rem, rgba(128, 128, 128, 0.2) 8.3333333333%);
+    background-size: calc(100% + 1rem);
+  }
+}
+@media screen and (min-width: 76rem) {
+  body.layout-grid--on::before {
+    width: 100%;
+    background-image: repeating-linear-gradient(to left, transparent 0, transparent 2rem, rgba(128, 128, 128, 0.2) 2rem, rgba(128, 128, 128, 0.2) 8.3333333333%);
+    background-size: calc(100% + 2rem);
+  }
+}
+body.layout-grid--on::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  min-height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  content: "";
+  z-index: 1000;
+  pointer-events: none;
+  mix-blend-mode: exclusion;
+  background: transparent linear-gradient(to top, rgba(128, 128, 128, 0.2) 0, rgba(128, 128, 128, 0.2) 1px, transparent 1px, transparent 100%) scroll repeat left top/100% 0.5rem;
+}
+@media screen and (min-width: 35rem) {
+  body.layout-grid--on::after {
+    background: transparent linear-gradient(to top, rgba(128, 128, 128, 0.2) 0, rgba(128, 128, 128, 0.2) 1px, transparent 1px, transparent 100%) scroll repeat left top/100% 0.5rem;
+  }
+}
+@media screen and (min-width: 48rem) {
+  body.layout-grid--on::after {
+    background: transparent linear-gradient(to top, rgba(128, 128, 128, 0.2) 0, rgba(128, 128, 128, 0.2) 1px, transparent 1px, transparent 100%) scroll repeat left top/100% 0.5rem;
+  }
+}
+@media screen and (min-width: 76rem) {
+  body.layout-grid--on::after {
+    background: transparent linear-gradient(to top, rgba(128, 128, 128, 0.2) 0, rgba(128, 128, 128, 0.2) 1px, transparent 1px, transparent 100%) scroll repeat left top/100% 0.5rem;
+  }
+}
+
+.toggleGroup {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999;
+}
+.toggleGroup button {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 8px;
+  border-color: color-get(wildcat-black);
+  background-color: color-get(wildcat-black);
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.twig-include {
+  position: relative;
+}
+
+.twig-include__label {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 1rem;
+  color: color-get(alert);
+  z-index: 998;
+}
+
+body.twig-includes--on .twig-include {
+  border: 2px solid color-get(alert);
+}
+body.twig-includes--on .twig-include__label {
+  display: block;
+}
+
+.sg-pattern[id=atoms-logo] .sg-pattern-example,
+.sg-pattern[id=atoms-logo-stacked] .sg-pattern-example,
+.sg-pattern[id=atoms-logo-mobile] .sg-pattern-example {
+  background: color-get(csu-green);
+  max-width: 700px;
+  padding: 20px;
+}
+
+.color-scheme-tester {
+  padding: 20px;
+}
+/*# sourceMappingURL=pattern-scaffolding.css.map */

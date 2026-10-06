@@ -1,0 +1,45 @@
+.global-header,
+.global-footer,
+.universal-footer,
+.section-nav {
+  display: none;
+}
+
+.sidebar-layout {
+  display: block;
+}
+
+.sidebar-layout .sidebar-layout__sidebar {
+  width: 100%;
+  max-width: none;
+}
+
+.teaser-collection__items,
+.teaser-collection--feature,
+.link-collection__links {
+  display: block !important;
+}
+
+.teaser-collection--feature .teaser-collection__items .teaser-collection__item,
+.teaser-collection__feature {
+  margin-bottom: 2rem;
+}
+
+.page-header.page-header--content-after .page-header__after,
+.content-row {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.content-row.content-row .content-row__intro {
+  flex: 1 1 46%;
+}
+
+.content-row.content-row--indent {
+  margin-left: 0 !important;
+}
+
+.headline-group.headline-group--stroke::after {
+  display: none;
+}
+/*# sourceMappingURL=print.css.map */

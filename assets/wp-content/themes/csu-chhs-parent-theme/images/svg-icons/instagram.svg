@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_social_instagram</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Wrapper" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-4a-(1680)-APPROVED" transform="translate(-1042.000000, -218.000000)" fill="#262626">
+            <g id="footer">
+                <g id="follow-chhs" transform="translate(1012.500000, 30.000000)">
+                    <g id="Social-media-Copy" transform="translate(30.000000, 94.000000)">
+                        <path d="M2,94 L1,94 C0.447,94 0,94.447 0,95 L0,96 L0,102 L0,108 L0,109 C0,109.553 0.447,110 1,110 L2,110 L14,110 L15,110 C15.553,110 16,109.553 16,109 L16,108 L16,102 L16,96 L16,95 C16,94.447 15.553,94 15,94 L14,94 L2,94 Z M8,100 C9.104,100 10,100.897 10,102 C10,103.103 9.104,104 8,104 C6.896,104 6,103.103 6,102 C6,100.897 6.896,100 8,100 Z M14,108 L2,108 L2,102 L4,102 C4,104.206 5.795,106 8,106 C10.205,106 12,104.206 12,102 L14,102 L14,108 Z M14,99 L11,99 L11,96 L14,96 L14,99 Z" id="icon_social_instagram"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
