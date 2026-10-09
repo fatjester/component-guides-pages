@@ -1,0 +1,16 @@
+/* Static guide containment repairs. Theme CSS still controls component styling. */
+.cg-demo[data-component="e-site-toolbar"] .cg-contain{min-height:480px}
+.cg-demo[data-component="e-site-toolbar"] #site_toolbar{position:relative;top:auto;right:auto;bottom:auto;height:480px;margin-left:auto}
+.cg-demo[data-component="e-breadcrumbs"]{padding:24px;background:#1e4d2b;color:white}
+.cg-demo .page-header-layout-primary{min-height:760px}
+.cg-demo .page-header-layout-basic .page-header-content{min-height:266px}
+.cg-demo .image-gallery img{width:100%;height:auto}
+.cg-demo .js-accordion__header button{cursor:pointer}
+.cg-demo .guide-tab-panel{padding:20px;background:#f4f4f1;border:1px solid #ccc}
+.cg-demo .guide-modal-sample{position:relative;background:white;padding:32px;max-width:650px;border:1px solid #ccc;box-shadow:0 4px 20px #0002;margin:20px auto}
+.cg-demo [role="tablist"]{display:flex;gap:8px;list-style:none;padding:0;margin:0}
+.cg-demo [role="tablist"] button{padding:12px 22px;background:#1e4d2b;color:white;border:0;cursor:pointer}
+.cg-demo [role="tablist"] button[aria-selected="false"]{background:#eee;color:#1e4d2b}
+.cg-demo dialog{max-width:650px;width:85%;border:0;padding:32px;box-shadow:0 4px 30px #0005}
+.cg-demo dialog::backdrop{background:#1e4d2b99}
+.cg-demo .mfp-hide{display:none}

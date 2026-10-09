@@ -1,0 +1,812 @@
+[
+  {
+    "theme": "chhs",
+    "id": "g-header",
+    "title": "Global header (logo, college name, main nav, utility nav)",
+    "path": "comparison-demos/chhs-g-header.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "g-pageheader",
+    "title": "Page header \u2014 Standard (grid)",
+    "path": "comparison-demos/chhs-g-pageheader.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "g-pageheader-slate",
+    "title": "Page header \u2014 Stalwart Slate scheme",
+    "path": "comparison-demos/chhs-g-pageheader-slate.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "g-breadcrumbs",
+    "title": "Breadcrumbs",
+    "path": "comparison-demos/chhs-g-breadcrumbs.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "g-alert",
+    "title": "Alert banner (sitewide + site-specific)",
+    "path": "comparison-demos/chhs-g-alert.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "g-sectionnav",
+    "title": "Section nav (left sidebar page tree)",
+    "path": "comparison-demos/chhs-g-sectionnav.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "g-footer",
+    "title": "Global footer + universal footer",
+    "path": "comparison-demos/chhs-g-footer.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "t-standard",
+    "title": "Standard Content Page (page-templates/standard.php)",
+    "path": "comparison-demos/chhs-t-standard.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "t-landing",
+    "title": "Landing Page (page-templates/landing.php)",
+    "path": "comparison-demos/chhs-t-landing.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "t-academic",
+    "title": "Academic Unit (page-templates/academic-unit.php)",
+    "path": "comparison-demos/chhs-t-academic.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "t-directory",
+    "title": "Filtered Directory Listing (page-templates/directory.php)",
+    "path": "comparison-demos/chhs-t-directory.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-wysiwyg",
+    "title": "WYSIWYG Content slab",
+    "path": "comparison-demos/chhs-s-wysiwyg.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-callout-r",
+    "title": "Callout slab \u2014 Standard, image right",
+    "path": "comparison-demos/chhs-s-callout-r.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-callout-l",
+    "title": "Callout slab \u2014 Standard, image left, gray",
+    "path": "comparison-demos/chhs-s-callout-l.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-callout-w",
+    "title": "Callout slab \u2014 Wide (billboard over image)",
+    "path": "comparison-demos/chhs-s-callout-w.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-callout-f",
+    "title": "Callout slab \u2014 Filmstrip",
+    "path": "comparison-demos/chhs-s-callout-f.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-callout-li",
+    "title": "Callout slab \u2014 Large image",
+    "path": "comparison-demos/chhs-s-callout-li.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-routing-img",
+    "title": "Routing Slab with Callouts \u2014 image teasers",
+    "path": "comparison-demos/chhs-s-routing-img.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-routing-icon",
+    "title": "Routing Slab with Callouts \u2014 icon teasers, gray, centered",
+    "path": "comparison-demos/chhs-s-routing-icon.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-accordion",
+    "title": "Accordion List slab",
+    "path": "comparison-demos/chhs-s-accordion.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-linklist",
+    "title": "Link List slab (link collection)",
+    "path": "comparison-demos/chhs-s-linklist.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-facts",
+    "title": "Fast Facts slab (fact collection)",
+    "path": "comparison-demos/chhs-s-facts.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-news",
+    "title": "News Callout slab (SOURCE feed)",
+    "path": "comparison-demos/chhs-s-news.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-listcoll",
+    "title": "List Collection slab",
+    "path": "comparison-demos/chhs-s-listcoll.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-table",
+    "title": "Table slab",
+    "path": "comparison-demos/chhs-s-table.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-gallery",
+    "title": "Image Gallery slab",
+    "path": "comparison-demos/chhs-s-gallery.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-events",
+    "title": "Event List slab (Trumba)",
+    "path": "comparison-demos/chhs-s-events.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "s-fullimage",
+    "title": "Full-width Image slab",
+    "path": "comparison-demos/chhs-s-fullimage.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "sb-contact",
+    "title": "Contact Info block",
+    "path": "comparison-demos/chhs-sb-contact.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "sb-teasers",
+    "title": "Sidebar Teasers block",
+    "path": "comparison-demos/chhs-sb-teasers.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "p-headline",
+    "title": "Headline group",
+    "path": "comparison-demos/chhs-p-headline.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "p-buttons",
+    "title": "Buttons & links",
+    "path": "comparison-demos/chhs-p-buttons.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "p-teaser",
+    "title": "Teaser / teaser collection",
+    "path": "comparison-demos/chhs-p-teaser.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "p-media",
+    "title": "Media / figure / image",
+    "path": "comparison-demos/chhs-p-media.html"
+  },
+  {
+    "theme": "chhs",
+    "id": "p-tabs",
+    "title": "Tabs / modal / accordion widgets",
+    "path": "comparison-demos/chhs-p-tabs.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-header",
+    "title": "Global header (logo, college name, main nav, utility nav)",
+    "path": "comparison-demos/rdc-g-header.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-pageheader",
+    "title": "Page header \u2014 Standard (grid)",
+    "path": "comparison-demos/rdc-g-pageheader.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-pageheader-slate",
+    "title": "Page header \u2014 Stalwart Slate scheme",
+    "path": "comparison-demos/rdc-g-pageheader-slate.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-pageheader-large",
+    "title": "Page header \u2014 Large media (RDC homepage)",
+    "path": "comparison-demos/rdc-g-pageheader-large.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-breadcrumbs",
+    "title": "Breadcrumbs",
+    "path": "comparison-demos/rdc-g-breadcrumbs.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-alert",
+    "title": "Alert banner (sitewide + site-specific)",
+    "path": "comparison-demos/rdc-g-alert.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-sectionnav",
+    "title": "Section nav (left sidebar page tree)",
+    "path": "comparison-demos/rdc-g-sectionnav.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "g-footer",
+    "title": "Global footer + universal footer",
+    "path": "comparison-demos/rdc-g-footer.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "t-standard",
+    "title": "Standard Content Page (page-templates/standard.php)",
+    "path": "comparison-demos/rdc-t-standard.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "t-landing",
+    "title": "Landing Page (page-templates/landing.php)",
+    "path": "comparison-demos/rdc-t-landing.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "t-academic",
+    "title": "Academic Unit (page-templates/academic-unit.php)",
+    "path": "comparison-demos/rdc-t-academic.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "t-directory",
+    "title": "Filtered Directory Listing (page-templates/directory.php)",
+    "path": "comparison-demos/rdc-t-directory.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-wysiwyg",
+    "title": "WYSIWYG Content slab",
+    "path": "comparison-demos/rdc-s-wysiwyg.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-callout-r",
+    "title": "Callout slab \u2014 Standard, image right",
+    "path": "comparison-demos/rdc-s-callout-r.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-callout-l",
+    "title": "Callout slab \u2014 Standard, image left, gray",
+    "path": "comparison-demos/rdc-s-callout-l.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-callout-w",
+    "title": "Callout slab \u2014 Wide (billboard over image)",
+    "path": "comparison-demos/rdc-s-callout-w.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-callout-f",
+    "title": "Callout slab \u2014 Filmstrip",
+    "path": "comparison-demos/rdc-s-callout-f.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-callout-li",
+    "title": "Callout slab \u2014 Large image",
+    "path": "comparison-demos/rdc-s-callout-li.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-routing-img",
+    "title": "Routing Slab with Callouts \u2014 image teasers",
+    "path": "comparison-demos/rdc-s-routing-img.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-routing-icon",
+    "title": "Routing Slab with Callouts \u2014 icon teasers, gray, centered",
+    "path": "comparison-demos/rdc-s-routing-icon.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-accordion",
+    "title": "Accordion List slab",
+    "path": "comparison-demos/rdc-s-accordion.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-linklist",
+    "title": "Link List slab (link collection)",
+    "path": "comparison-demos/rdc-s-linklist.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-facts",
+    "title": "Fast Facts slab (fact collection)",
+    "path": "comparison-demos/rdc-s-facts.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-news",
+    "title": "News Callout slab (SOURCE feed)",
+    "path": "comparison-demos/rdc-s-news.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-listcoll",
+    "title": "List Collection slab",
+    "path": "comparison-demos/rdc-s-listcoll.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-table",
+    "title": "Table slab",
+    "path": "comparison-demos/rdc-s-table.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-gallery",
+    "title": "Image Gallery slab",
+    "path": "comparison-demos/rdc-s-gallery.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-events",
+    "title": "Event List slab (Trumba)",
+    "path": "comparison-demos/rdc-s-events.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-fullimage",
+    "title": "Full-width Image slab",
+    "path": "comparison-demos/rdc-s-fullimage.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "s-quote",
+    "title": "Quote slab (RDC only)",
+    "path": "comparison-demos/rdc-s-quote.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "sb-contact",
+    "title": "Contact Info block",
+    "path": "comparison-demos/rdc-sb-contact.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "sb-teasers",
+    "title": "Sidebar Teasers block",
+    "path": "comparison-demos/rdc-sb-teasers.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "p-headline",
+    "title": "Headline group",
+    "path": "comparison-demos/rdc-p-headline.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "p-buttons",
+    "title": "Buttons & links",
+    "path": "comparison-demos/rdc-p-buttons.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "p-teaser",
+    "title": "Teaser / teaser collection",
+    "path": "comparison-demos/rdc-p-teaser.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "p-media",
+    "title": "Media / figure / image",
+    "path": "comparison-demos/rdc-p-media.html"
+  },
+  {
+    "theme": "rdc",
+    "id": "p-tabs",
+    "title": "Tabs / modal / accordion widgets",
+    "path": "comparison-demos/rdc-p-tabs.html"
+  },
+  {
+    "theme": "fye",
+    "id": "a-palette",
+    "title": "Color Palette",
+    "path": "comparison-demos/fye-a-palette.html"
+  },
+  {
+    "theme": "fye",
+    "id": "a-typography",
+    "title": "Typography",
+    "path": "comparison-demos/fye-a-typography.html"
+  },
+  {
+    "theme": "fye",
+    "id": "a-layout",
+    "title": "Layout Widths",
+    "path": "comparison-demos/fye-a-layout.html"
+  },
+  {
+    "theme": "fye",
+    "id": "a-core-defaults",
+    "title": "Heading, Paragraph, List, Link, Quote and Table Defaults",
+    "path": "comparison-demos/fye-a-core-defaults.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta",
+    "title": "Call to Action (default / no style)",
+    "path": "comparison-demos/fye-b-cta.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-cards-traditional",
+    "title": "Call to Action: Cards | Traditional (Energy Green)",
+    "path": "comparison-demos/fye-b-cta-cards-traditional.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-cards-traditional-oval-green",
+    "title": "Call to Action: Cards | Traditional (Oval Green)",
+    "path": "comparison-demos/fye-b-cta-cards-traditional-oval-green.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-cards-swipe",
+    "title": "Call to Action: Cards | Swipe (Energy Green)",
+    "path": "comparison-demos/fye-b-cta-cards-swipe.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-cards-swipe-oval-green",
+    "title": "Call to Action: Cards | Swipe (Oval Green)",
+    "path": "comparison-demos/fye-b-cta-cards-swipe-oval-green.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-cards-expanders",
+    "title": "Call to Action: Cards | Expanders",
+    "path": "comparison-demos/fye-b-cta-cards-expanders.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-cards-expanders-swipe",
+    "title": "Call to Action: Cards | Expanders (Swipe)",
+    "path": "comparison-demos/fye-b-cta-cards-expanders-swipe.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-image-list",
+    "title": "Call to Action: Image List",
+    "path": "comparison-demos/fye-b-cta-image-list.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cta-icon-list",
+    "title": "Call to Action: Icon List",
+    "path": "comparison-demos/fye-b-cta-icon-list.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cq",
+    "title": "Content Query (default)",
+    "path": "comparison-demos/fye-b-cq.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cq-cards-traditional-energy-green",
+    "title": "Content Query: Cards | Traditional (Energy Green)",
+    "path": "comparison-demos/fye-b-cq-cards-traditional-energy-green.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-cq-cards-traditional-oval-green",
+    "title": "Content Query: Cards | Traditional (Oval Green)",
+    "path": "comparison-demos/fye-b-cq-cards-traditional-oval-green.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-slider",
+    "title": "Slider (default / no style)",
+    "path": "comparison-demos/fye-b-slider.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-slider-default-purple",
+    "title": "Slider: Default | Purple",
+    "path": "comparison-demos/fye-b-slider-default-purple.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-slider-default-blue",
+    "title": "Slider: Default | Blue",
+    "path": "comparison-demos/fye-b-slider-default-blue.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-slider-highlight-energy",
+    "title": "Slider: Highlight | Energy",
+    "path": "comparison-demos/fye-b-slider-highlight-energy.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-slider-highlight-csu",
+    "title": "Slider: Highlight | CSU Green",
+    "path": "comparison-demos/fye-b-slider-highlight-csu.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-slider-highlight-gold",
+    "title": "Slider: Highlight | CSU Gold",
+    "path": "comparison-demos/fye-b-slider-highlight-gold.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-source",
+    "title": "SOURCE Stories (default)",
+    "path": "comparison-demos/fye-b-source.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-source-enterprise",
+    "title": "SOURCE Stories: Enterprise",
+    "path": "comparison-demos/fye-b-source-enterprise.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-sticky",
+    "title": "Sticky Nav Group",
+    "path": "comparison-demos/fye-b-sticky.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-sticky-item",
+    "title": "Sticky Nav Item",
+    "path": "comparison-demos/fye-b-sticky-item.html"
+  },
+  {
+    "theme": "fye",
+    "id": "b-trumba",
+    "title": "Trumba Events",
+    "path": "comparison-demos/fye-b-trumba.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-media-text-brushstroke",
+    "title": "Media & Text: Brushstroke",
+    "path": "comparison-demos/fye-c-media-text-brushstroke.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-media-text-brushstroke-lines",
+    "title": "Media & Text: Brushstroke+ (brushstroke-lines)",
+    "path": "comparison-demos/fye-c-media-text-brushstroke-lines.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-separator",
+    "title": "Separator (all variants)",
+    "path": "comparison-demos/fye-c-separator.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-list",
+    "title": "List (Green Border + Multi-column)",
+    "path": "comparison-demos/fye-c-list.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-cover-brush",
+    "title": "Cover: Brushstroke variants",
+    "path": "comparison-demos/fye-c-cover-brush.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-cover-reverb",
+    "title": "Cover: Reverb variants (Ram Reverb)",
+    "path": "comparison-demos/fye-c-cover-reverb.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-columns",
+    "title": "Columns: Divider variants",
+    "path": "comparison-demos/fye-c-columns.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-details",
+    "title": "Details (Default + Outline)",
+    "path": "comparison-demos/fye-c-details.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-button",
+    "title": "Button / Buttons",
+    "path": "comparison-demos/fye-c-button.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-quote",
+    "title": "Quote",
+    "path": "comparison-demos/fye-c-quote.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-table",
+    "title": "Table",
+    "path": "comparison-demos/fye-c-table.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-image",
+    "title": "Image",
+    "path": "comparison-demos/fye-c-image.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-heading",
+    "title": "Heading",
+    "path": "comparison-demos/fye-c-heading.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-group",
+    "title": "Group",
+    "path": "comparison-demos/fye-c-group.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-gallery",
+    "title": "Gallery",
+    "path": "comparison-demos/fye-c-gallery.html"
+  },
+  {
+    "theme": "fye",
+    "id": "c-embed",
+    "title": "Embed (placeholder)",
+    "path": "comparison-demos/fye-c-embed.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-heading-highlight",
+    "title": "Pattern: Heading Highlight",
+    "path": "comparison-demos/fye-p-heading-highlight.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-banner-strip",
+    "title": "Pattern: Banner Strip",
+    "path": "comparison-demos/fye-p-banner-strip.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-callout-heading",
+    "title": "Pattern: Callout Heading",
+    "path": "comparison-demos/fye-p-callout-heading.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-media-and-text",
+    "title": "Pattern: Media & Text",
+    "path": "comparison-demos/fye-p-media-and-text.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-cta-cover-starter",
+    "title": "Pattern: Call to Action Cover",
+    "path": "comparison-demos/fye-p-cta-cover-starter.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-ram-reverb-cover-starter",
+    "title": "Pattern: Ram Reverb Cover",
+    "path": "comparison-demos/fye-p-ram-reverb-cover-starter.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-highlight-list-with-text",
+    "title": "Pattern: Highlight List with Text",
+    "path": "comparison-demos/fye-p-highlight-list-with-text.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-icon-list",
+    "title": "Pattern: Icon List",
+    "path": "comparison-demos/fye-p-icon-list.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-image-list",
+    "title": "Pattern: Image List",
+    "path": "comparison-demos/fye-p-image-list.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-accordion",
+    "title": "Pattern: Accordion / Details",
+    "path": "comparison-demos/fye-p-accordion.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-accordion-outline",
+    "title": "Pattern: Accordion / Details Outline",
+    "path": "comparison-demos/fye-p-accordion-outline.html"
+  },
+  {
+    "theme": "fye",
+    "id": "p-sticky-nav",
+    "title": "Pattern: Sticky Nav Section",
+    "path": "comparison-demos/fye-p-sticky-nav.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-site-header",
+    "title": "Site Header",
+    "path": "comparison-demos/fye-e-site-header.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-site-toolbar",
+    "title": "Site Toolbar",
+    "path": "comparison-demos/fye-e-site-toolbar.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-site-alert",
+    "title": "Site Alert",
+    "path": "comparison-demos/fye-e-site-alert.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-site-footer",
+    "title": "Site Footer",
+    "path": "comparison-demos/fye-e-site-footer.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-breadcrumbs",
+    "title": "Breadcrumbs",
+    "path": "comparison-demos/fye-e-breadcrumbs.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-page-header-basic",
+    "title": "Page Header: Basic",
+    "path": "comparison-demos/fye-e-page-header-basic.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-page-header-primary",
+    "title": "Page Header: Primary (hero)",
+    "path": "comparison-demos/fye-e-page-header-primary.html"
+  },
+  {
+    "theme": "fye",
+    "id": "e-page-header-secondary",
+    "title": "Page Header: Secondary (side by side)",
+    "path": "comparison-demos/fye-e-page-header-secondary.html"
+  }
+]

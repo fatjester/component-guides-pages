@@ -1,0 +1,100 @@
+<!doctype html><html lang="en"><head><base href="../"/><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Component Guide - Find Your Energy theme + Stalwart Blocks (DESTINATION)</title>
+<link href="assets/wp-includes/css/dist/block-library/style.min.css" rel="stylesheet"/>
+<link href="assets/wp-includes/css/dist/block-library/theme.min.css" rel="stylesheet"/>
+<link href="assets/wp-content/themes/find-your-energy/assets/css/fonts.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/includes/plugins/splide/splide.min.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/call-to-action/call-to-action.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/content-query/content-query.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/slider/slider.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/source-stories/source-stories.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/sticky-nav-group/sticky-nav-group.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/sticky-nav-item/sticky-nav-item.css" rel="stylesheet"/>
+<link href="assets/wp-content/plugins/stalwart-blocks/blocks/trumba-events/trumba-events.css" rel="stylesheet"/><link href="assets/wp-content/themes/find-your-energy/style.css" rel="stylesheet"/>
+<link href="guide.css" rel="stylesheet"/>
+<style>
+:root{--wp--preset--color--foreground:#59595B;--wp--preset--color--background:#ffffff;--wp--preset--color--csu-green:#1E4D2B;--wp--preset--color--csu-gold:#C8C372;--wp--preset--color--aggie-orange:#D9782D;--wp--preset--color--oval-green:#006144;--wp--preset--color--lovers-lane:#82C503;--wp--preset--color--energy-green:#CFFC00;--wp--preset--color--flower-trial-red:#c6503d;--wp--preset--color--powered-purple:#7E5475;--wp--preset--color--horsetooth-blue:#008FB3;--wp--preset--color--stalwart-slate:#105456;--wp--preset--color--sunshine:#FFC038;--wp--preset--color--gray:#CCCCCC;--wp--preset--color--tan:#E3CDB1;--wp--preset--font-family--poppins:"Poppins", sans-serif;--wp--preset--font-family--industry:"Industry", sans-serif;--wp--preset--font-family--codicons:"codicons", sans-serif;--wp--preset--font-family--bodoni:"Bodoni", serif;--wp--preset--font-size--gargantuan:clamp(2.25rem, 5vw, 4.25rem);--wp--preset--font-size--colossal:clamp(2.15rem, 4.8vw, 3.5rem);--wp--preset--font-size--gigantic:clamp(2.1rem, 4.4vw, 2.75rem);--wp--preset--font-size--jumbo:clamp(2rem, 4vw, 2.5rem);--wp--preset--font-size--huge:clamp(1.875rem, 3.6vw, 2.25rem);--wp--preset--font-size--big:clamp(1.75rem, 3.2vw, 2rem);--wp--preset--font-size--x-large:clamp(1.5rem, 2.8vw, 1.75rem);--wp--preset--font-size--large:clamp(1.25rem, 2.3vw, 1.5rem);--wp--preset--font-size--normal:clamp(1.1rem, 1.3vw, 1.3rem);--wp--preset--font-size--medium:1.125rem;--wp--preset--font-size--small:clamp(0.9rem, 1vw, 1rem);--wp--preset--font-size--tiny:0.875rem;--wp--preset--font-size--min:0.75rem;--wp--custom--border-radius--tiny:3px;--wp--custom--border-radius--small:8px;--wp--custom--border-radius--medium:12px;--wp--custom--border-radius--large:50%;--wp--custom--border-width--tiny:1px;--wp--custom--border-width--small:2px;--wp--custom--border-width--medium:3px;--wp--custom--border-width--large:4px;--wp--custom--box-shadow--1:0px 2px 8px rgba(33, 33, 33, 0.12);--wp--custom--box-shadow--2:0px 3px 10px rgba(33, 33, 33, 0.25);--wp--custom--color--link:var(--wp--preset--color--horsetooth-blue);--wp--custom--color--neutral-50:#FAFAFA;--wp--custom--color--neutral-100:#F5F5F5;--wp--custom--color--neutral-200:#EEEEEE;--wp--custom--color--neutral-300:#E0E0E0;--wp--custom--color--neutral-400:#BDBDBD;--wp--custom--color--neutral-500:#9E9E9E;--wp--custom--color--neutral-600:#757575;--wp--custom--color--neutral-700:#616161;--wp--custom--color--neutral-800:#424242;--wp--custom--color--neutral-900:#212121;--wp--custom--layout--content:1200px;--wp--custom--layout--wide:1400px;--wp--custom--layout--narrow:900px;--wp--custom--layout--sidebar:336px;--wp--custom--layout--page:var(--wp--custom--layout--content);--wp--custom--layout--padding:1rem;--wp--custom--layout--block-gap:1.5rem;--wp--custom--layout--block-gap-large:6rem;--wp--custom--letter-spacing--none:normal;--wp--custom--letter-spacing--tight:-.01em;--wp--custom--letter-spacing--loose:.05em;--wp--custom--letter-spacing--looser:.1em;--wp--custom--line-height--tiny:1.1;--wp--custom--line-height--small:1.2;--wp--custom--line-height--medium:1.4;--wp--custom--line-height--normal:1.6;}
+.has-foreground-color{color:var(--wp--preset--color--foreground)!important}.has-foreground-background-color{background-color:var(--wp--preset--color--foreground)!important}.has-foreground-border-color{border-color:var(--wp--preset--color--foreground)!important}
+.has-background-color{color:var(--wp--preset--color--background)!important}.has-background-background-color{background-color:var(--wp--preset--color--background)!important}.has-background-border-color{border-color:var(--wp--preset--color--background)!important}
+.has-csu-green-color{color:var(--wp--preset--color--csu-green)!important}.has-csu-green-background-color{background-color:var(--wp--preset--color--csu-green)!important}.has-csu-green-border-color{border-color:var(--wp--preset--color--csu-green)!important}
+.has-csu-gold-color{color:var(--wp--preset--color--csu-gold)!important}.has-csu-gold-background-color{background-color:var(--wp--preset--color--csu-gold)!important}.has-csu-gold-border-color{border-color:var(--wp--preset--color--csu-gold)!important}
+.has-aggie-orange-color{color:var(--wp--preset--color--aggie-orange)!important}.has-aggie-orange-background-color{background-color:var(--wp--preset--color--aggie-orange)!important}.has-aggie-orange-border-color{border-color:var(--wp--preset--color--aggie-orange)!important}
+.has-oval-green-color{color:var(--wp--preset--color--oval-green)!important}.has-oval-green-background-color{background-color:var(--wp--preset--color--oval-green)!important}.has-oval-green-border-color{border-color:var(--wp--preset--color--oval-green)!important}
+.has-lovers-lane-color{color:var(--wp--preset--color--lovers-lane)!important}.has-lovers-lane-background-color{background-color:var(--wp--preset--color--lovers-lane)!important}.has-lovers-lane-border-color{border-color:var(--wp--preset--color--lovers-lane)!important}
+.has-energy-green-color{color:var(--wp--preset--color--energy-green)!important}.has-energy-green-background-color{background-color:var(--wp--preset--color--energy-green)!important}.has-energy-green-border-color{border-color:var(--wp--preset--color--energy-green)!important}
+.has-flower-trial-red-color{color:var(--wp--preset--color--flower-trial-red)!important}.has-flower-trial-red-background-color{background-color:var(--wp--preset--color--flower-trial-red)!important}.has-flower-trial-red-border-color{border-color:var(--wp--preset--color--flower-trial-red)!important}
+.has-powered-purple-color{color:var(--wp--preset--color--powered-purple)!important}.has-powered-purple-background-color{background-color:var(--wp--preset--color--powered-purple)!important}.has-powered-purple-border-color{border-color:var(--wp--preset--color--powered-purple)!important}
+.has-horsetooth-blue-color{color:var(--wp--preset--color--horsetooth-blue)!important}.has-horsetooth-blue-background-color{background-color:var(--wp--preset--color--horsetooth-blue)!important}.has-horsetooth-blue-border-color{border-color:var(--wp--preset--color--horsetooth-blue)!important}
+.has-stalwart-slate-color{color:var(--wp--preset--color--stalwart-slate)!important}.has-stalwart-slate-background-color{background-color:var(--wp--preset--color--stalwart-slate)!important}.has-stalwart-slate-border-color{border-color:var(--wp--preset--color--stalwart-slate)!important}
+.has-sunshine-color{color:var(--wp--preset--color--sunshine)!important}.has-sunshine-background-color{background-color:var(--wp--preset--color--sunshine)!important}.has-sunshine-border-color{border-color:var(--wp--preset--color--sunshine)!important}
+.has-gray-color{color:var(--wp--preset--color--gray)!important}.has-gray-background-color{background-color:var(--wp--preset--color--gray)!important}.has-gray-border-color{border-color:var(--wp--preset--color--gray)!important}
+.has-tan-color{color:var(--wp--preset--color--tan)!important}.has-tan-background-color{background-color:var(--wp--preset--color--tan)!important}.has-tan-border-color{border-color:var(--wp--preset--color--tan)!important}
+.has-poppins-font-family{font-family:var(--wp--preset--font-family--poppins)!important}
+.has-industry-font-family{font-family:var(--wp--preset--font-family--industry)!important}
+.has-codicons-font-family{font-family:var(--wp--preset--font-family--codicons)!important}
+.has-bodoni-font-family{font-family:var(--wp--preset--font-family--bodoni)!important}
+.has-gargantuan-font-size{font-size:var(--wp--preset--font-size--gargantuan)!important}
+.has-colossal-font-size{font-size:var(--wp--preset--font-size--colossal)!important}
+.has-gigantic-font-size{font-size:var(--wp--preset--font-size--gigantic)!important}
+.has-jumbo-font-size{font-size:var(--wp--preset--font-size--jumbo)!important}
+.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)!important}
+.has-big-font-size{font-size:var(--wp--preset--font-size--big)!important}
+.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large)!important}
+.has-large-font-size{font-size:var(--wp--preset--font-size--large)!important}
+.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)!important}
+.has-medium-font-size{font-size:var(--wp--preset--font-size--medium)!important}
+.has-small-font-size{font-size:var(--wp--preset--font-size--small)!important}
+.has-tiny-font-size{font-size:var(--wp--preset--font-size--tiny)!important}
+.has-min-font-size{font-size:var(--wp--preset--font-size--min)!important}
+
+/* Approximates what WP emits from theme.json styles */
+body{font-family:var(--wp--preset--font-family--poppins);font-size:var(--wp--preset--font-size--normal);line-height:var(--wp--custom--line-height--normal);color:var(--wp--preset--color--foreground)}
+body.cg-body{font-family:Arial,Helvetica,sans-serif;font-size:16px;line-height:1.5;color:#222;background:#f3f4f2}
+/* Guide label protection (theme CSS restyles h2, dl, ul, a) */
+.cg-section .cg-label,.cg-section .cg-label *{font-family:Arial,Helvetica,sans-serif!important;text-transform:none;letter-spacing:0;box-sizing:border-box}
+.cg-section .cg-label h2{margin:0 0 8px;padding:0;font-size:20px;line-height:1.2;color:#111;font-weight:700;border:0;background:none}
+.cg-section .cg-label h2::before,.cg-section .cg-label h2::after{display:none}
+.cg-section .cg-label p,.cg-section .cg-label dd,.cg-section .cg-label dt,.cg-section .cg-label li{font-size:13px;line-height:1.45;color:#222;margin:0}
+.cg-section .cg-label dt{font-weight:700;color:#555}
+.cg-section .cg-label ul.cg-fields{margin:6px 0 0;padding-left:18px;list-style:disc}
+.cg-section .cg-label dl{display:grid;grid-template-columns:150px 1fr;gap:4px 14px;margin:8px 0 0}
+.cg-section .cg-label code{background:#f0eed8;padding:1px 4px;border-radius:2px;font:12px Menlo,Consolas,monospace!important;color:#222}
+.cg-section .cg-label .cg-badge{font:700 11px Arial,sans-serif!important;color:#fff;text-transform:uppercase;letter-spacing:.06em}
+.cg-section .cg-label .cg-match{font:700 12px Arial,sans-serif!important}
+.cg-top h1{font-family:Arial,sans-serif!important;font-size:18px!important;color:#fff!important;margin:0!important;line-height:1.3!important;text-transform:none!important}
+.cg-intro h2,.cg-intro p,.cg-intro li{font-family:Arial,sans-serif!important}
+.cg-intro h2{font-size:18px;color:#111;margin:0 0 8px;text-transform:none;letter-spacing:0}
+.cg-intro p,.cg-intro li{font-size:14px;line-height:1.5;color:#222;margin:0 0 8px}
+.cg-toc,.cg-toc a{font-family:Arial,sans-serif!important}
+.cg-toc a{font-size:13px;color:#0b5394;text-decoration:underline}
+.cg-toc .cg-toc-g{display:block;margin-top:8px;font-weight:700;color:#1e4d2b;font-size:13px}
+h2.cg-group{font:700 15px Arial,sans-serif!important;color:#fff!important;text-transform:uppercase;letter-spacing:.04em;margin:48px 0 8px;line-height:1.3}
+.cg-variant{font:700 12px Arial,sans-serif;color:#333;background:#e8eef7;border-top:1px solid #cfd3cc;border-bottom:1px solid #cfd3cc;padding:5px 18px}
+.cg-demo{background:var(--wp--preset--color--background);color:var(--wp--preset--color--foreground);font-family:var(--wp--preset--font-family--poppins);font-size:var(--wp--preset--font-size--normal);line-height:1.6;text-align:left}
+.cg-demo.pad{padding:24px}
+/* Layout helpers (WP emits layout CSS inline from theme.json / block layout attrs) */
+:where(.is-layout-flow>*,.is-layout-constrained>*){margin-block-start:0;margin-block-end:0}
+:where(.is-layout-flow>*+*,.is-layout-constrained>*+*){margin-block-start:var(--wp--custom--layout--block-gap)}
+.is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--custom--layout--content);margin-left:auto;margin-right:auto}
+.is-layout-constrained>.alignwide{max-width:var(--wp--custom--layout--wide)}
+.is-layout-flex{display:flex;flex-wrap:wrap;align-items:center;gap:.5em}
+.is-layout-flex.is-nowrap{flex-wrap:nowrap}
+.wp-block-buttons{display:flex;flex-wrap:wrap;gap:.5rem}
+.wp-block-gallery.has-nested-images{display:flex;flex-wrap:wrap;gap:16px}
+.wp-block-gallery.has-nested-images figure.wp-block-image{flex:1 1 calc(33.333% - 16px);margin:0}
+.cg-flow{max-width:1200px;margin:0 auto}
+.cg-flow>*+*{margin-top:1.5rem}
+/* Guide demo helpers */
+.cg-swatches{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.cg-swatch{padding:14px;min-height:130px;border:1px solid rgba(0,0,0,.15);font:12px/1.4 Arial,sans-serif;display:flex;flex-direction:column;gap:2px}
+.cg-swatch b{font-size:14px}
+.cg-typerow{margin:0 0 14px;border-bottom:1px dotted #ccc;padding-bottom:10px}
+.cg-tl{display:block;font:11px Arial,sans-serif;color:#666;margin-bottom:4px;text-transform:none}
+.cg-bar{margin:6px 0}
+.cg-bar>div{background:#CFFC00;color:#1E4D2B;padding:10px 12px;font:13px Arial,sans-serif;white-space:nowrap;overflow:hidden}
+.cg-embed-ph{background:#222;color:#fff;font:14px Arial,sans-serif;display:flex;align-items:center;justify-content:center;aspect-ratio:16/9;text-align:center;padding:12px}
+.cg-contain{position:relative;transform:translate(0,0);overflow:hidden;min-height:60px;isolation:isolate}
+.cg-contain-tall{min-height:190px}
+.cg-contain-foot{min-height:200px}
+.cg-blocklist{display:flex;flex-wrap:wrap;gap:6px}
+.cg-blocklist code{font:12px Menlo,Consolas,monospace;background:#f0eed8;padding:3px 7px;border-radius:2px;color:#222}
+</style><link data-guide-repair="true" href="guide-preview-repairs.css" rel="stylesheet"/></head><style>html,body{margin:0!important;padding:0!important;background:white!important}.cg-demo{margin:0!important;border:0!important;max-width:none;overflow:hidden;isolation:isolate}body{overflow-x:hidden}.cg-demo .cg-contain{max-width:100%}</style><body class="cg-body"><div class="cg-demo pad" data-component="b-cta-cards-expanders"><div class="wp-block-stalwart-blocks-call-to-action is-style-cards-expanders"><ul class="stalwart-ctas columns-3 is-style-cards-expanders" id="stalwart-ctas-cards-expanders"><li class="stalwart-cta-single has-link"><figure class="stalwart-cta-image-wrapper"><img alt="" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22600%22 viewBox=%220 0 800 600%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%231E4D2B%22/%3E%3Cstop offset=%221%22 stop-color=%22%231E4D2B%22 stop-opacity=%22.72%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22100%25%22 height=%22100%25%22 fill=%22url%28%23g%29%22/%3E%3Ccircle cx=%22624%22 cy=%22150%22 r=%22210%22 fill=%22%23ffffff%22 fill-opacity=%22.12%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%23ffffff%22 font-family=%22Arial,sans-serif%22 font-size=%2250%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3EProspective Students%3C/text%3E%3C/svg%3E"/></figure><div class="stalwart-cta-content"><p class="stalwart-cta-kicker">Start here</p><h3 class="stalwart-cta-heading"><a class="stalwart-cta-link" href="#">Prospective Students</a></h3><p class="stalwart-cta-description">Explore majors, minors and certificates across the college.</p></div></li><li class="stalwart-cta-single has-link"><figure class="stalwart-cta-image-wrapper"><img alt="" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22600%22 viewBox=%220 0 800 600%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%23008FB3%22/%3E%3Cstop offset=%221%22 stop-color=%22%23008FB3%22 stop-opacity=%22.72%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22100%25%22 height=%22100%25%22 fill=%22url%28%23g%29%22/%3E%3Ccircle cx=%22624%22 cy=%22150%22 r=%22210%22 fill=%22%23ffffff%22 fill-opacity=%22.12%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%23ffffff%22 font-family=%22Arial,sans-serif%22 font-size=%2250%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3EResearch%3C/text%3E%3C/svg%3E"/></figure><div class="stalwart-cta-content"><p class="stalwart-cta-kicker">Impact</p><h3 class="stalwart-cta-heading"><a class="stalwart-cta-link" href="#">Research and Discovery</a></h3><p class="stalwart-cta-description">Meet the faculty and labs advancing health and human well-being.</p></div></li><li class="stalwart-cta-single has-link"><figure class="stalwart-cta-image-wrapper"><img alt="" src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22600%22 viewBox=%220 0 800 600%22%3E%3Cdefs%3E%3ClinearGradient id=%22g%22 x1=%220%22 y1=%220%22 x2=%221%22 y2=%221%22%3E%3Cstop offset=%220%22 stop-color=%22%237E5475%22/%3E%3Cstop offset=%221%22 stop-color=%22%237E5475%22 stop-opacity=%22.72%22/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width=%22100%25%22 height=%22100%25%22 fill=%22url%28%23g%29%22/%3E%3Ccircle cx=%22624%22 cy=%22150%22 r=%22210%22 fill=%22%23ffffff%22 fill-opacity=%22.12%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%23ffffff%22 font-family=%22Arial,sans-serif%22 font-size=%2250%22 text-anchor=%22middle%22 dominant-baseline=%22middle%22%3EAlumni%3C/text%3E%3C/svg%3E"/></figure><div class="stalwart-cta-content"><p class="stalwart-cta-kicker">Connect</p><h3 class="stalwart-cta-heading"><a class="stalwart-cta-link" href="#">Alumni and Giving</a></h3><p class="stalwart-cta-description">Stay connected and support the next generation of Rams.</p></div></li></ul></div></div><script>var stickyNavBreakpoint = 992;</script><script src="assets/wp-content/themes/find-your-energy/assets/js/expander-card.js"></script><script src="preview-runtime.js"></script></body></html>
